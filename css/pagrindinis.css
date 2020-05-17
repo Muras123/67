@@ -1,0 +1,57 @@
+body {
+    background-color: sandybrown;
+    
+}
+p {
+    font-family: tahoma;
+    font-size: 15px;
+    color: black;
+}
+ .puslapis {
+    background-color: white; 
+    width:820px;
+    padding: 10px;
+    border: 2 px solid grey;
+    /* centruojame div */ 
+    margin-right: auto; 
+    margin-left: auto; 
+} 
+
+h1 {
+    font-family: tahoma;
+    font-size: 25 px;
+    color:grey;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.meniu a{
+    text-decoration: none;
+    border: 2px solid grey;
+    padding: 4px;
+    background-color: grey;
+    color:white;
+    border-radius: 10%;
+}
+.meniu a:hover{
+    color:skyblue;
+}
+.meniu {
+    text-align: center;
+}
+table {
+    width: 100%;
+  }
+th,td {
+  vertical-align: text-top;
+  text-align: left;
+}
+th {
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: sandybrown;
+}
+  
+  tr:nth-child(odd) {
+    background-color: burlywood;
+}
